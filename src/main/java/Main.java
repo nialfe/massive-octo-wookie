@@ -27,6 +27,7 @@ public class Main extends HttpServlet {
       throws ServletException, IOException {
     //resp.getWriter().print("Hello from Java!");
     RelativisticModel.select();
+    String energy = System.getenv().get("ENERGY");
     Amount<Mass> m = Amount.valueOf("12 GeV").to(KILOGRAM);
 
     resp.getWriter().print("E=mc^2: 12 GeV = " + m);
