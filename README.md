@@ -6,4 +6,4 @@ Make sure you have Java and Maven installed.  Also, install the [Heroku Toolbelt
 
 App running at https://immense-savannah-3464.herokuapp.com/
 
-Hello, Nolan will be collaborating
+Hello, Nolan and Nichlas will be collaborating
